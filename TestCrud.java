@@ -1,10 +1,5 @@
-package Teste.Algoritmos;
-
-import Algoritmos.Java.Desafio1.Classes.Mais.CRUD.Cliente;
-import Algoritmos.Java.Desafio1.Classes.Mais.CRUD.ClienteService;
-
 public class TestCrud {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         ClienteService service = new ClienteService();
 
         service.cadastrar("Ana", "ana@email.com");
